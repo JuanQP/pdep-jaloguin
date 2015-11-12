@@ -48,3 +48,9 @@ Hecho esto, deberían poder ver la ejecución de ese programa. Eso sería todo.
 
 [3]: https://www.jetbrains.com/idea/
 [4]: https://www.jetbrains.com/idea/help/creating-and-running-your-scala-application.html
+
+# Tutoriales
+
+Algunos tutoriales que estuve leyendo para entender Scala y que me parecieron recomendados.
+
+http://tutorials.jenkov.com/scala/overview.html
