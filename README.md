@@ -56,3 +56,44 @@ Algunos tutoriales que estuve leyendo para entender Scala y que me parecieron re
 http://tutorials.jenkov.com/scala/overview.html
 
 http://www.tutorialspoint.com/scala/scala_overview.htm
+
+# Ejemplo de código
+
+Un ejemplo donde se crea un objeto `Persona` y luego se leen el nombre y apellido de la persona. Se le setean dichos valores, y se define un método dentro de `Persona` para poder mostrar sus valores.
+
+```scala
+object main {
+  def main(args: Array[String])
+  {
+    //Creamos una persona sin nombre ni apellido, despues lo vamos a setear.
+    var p1 = new Persona("", "")
+    var nombre = ""
+    var apellido = ""
+    println("Prueba en Scala.")
+    //Leemos desde el teclado nombre y apellido.
+    print("Nombre: ")
+    nombre = scala.io.StdIn.readLine()
+    print("Apellido: ")
+    apellido = scala.io.StdIn.readLine()
+    //Asignamos al objeto el nombre y apellido leídos.
+    p1.nombre = nombre
+    p1.apellido = apellido
+    //Mostramos el objeto p1.
+    println("La personita creada es " + p1)
+  }
+}
+
+//Clase Persona. tiene el campo nombre y el campo apellido.
+//Los campos creados con var generan getters y setters.
+//Los campos creados con val generan solo getters (campos de solo lectura).
+class Persona(var nombre:String,
+              var apellido:String)
+{
+  //Sobrescribimos el método toString para poder mostrar como texto el objeto Persona.
+  //No hace falta usar return para devolver un valor, pero lo uso igual por ahora.
+  override def toString : String =
+  {
+    return "" + apellido + ", " + nombre
+  }
+}
+```
