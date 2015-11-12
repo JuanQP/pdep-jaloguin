@@ -57,6 +57,8 @@ http://tutorials.jenkov.com/scala/overview.html
 
 http://www.tutorialspoint.com/scala/scala_overview.htm
 
+http://scalatutorials.com/tour/interactive_tour_of_scala_scalculator.html
+
 # Ejemplo de código
 
 Un ejemplo donde se crea un objeto `Persona` y luego se leen el nombre y apellido de la persona. Se le setean dichos valores, y se define un método dentro de `Persona` para poder mostrar sus valores.
