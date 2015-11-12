@@ -54,3 +54,5 @@ Hecho esto, deberían poder ver la ejecución de ese programa. Eso sería todo.
 Algunos tutoriales que estuve leyendo para entender Scala y que me parecieron recomendados.
 
 http://tutorials.jenkov.com/scala/overview.html
+
+http://www.tutorialspoint.com/scala/scala_overview.htm
