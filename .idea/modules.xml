@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PdeP-Jaloguin.iml" filepath="$PROJECT_DIR$/PdeP-Jaloguin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tppdep.iml" filepath="$PROJECT_DIR$/.idea/modules/tppdep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tppdep-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tppdep-build.iml" />
     </modules>
   </component>
 </project>
